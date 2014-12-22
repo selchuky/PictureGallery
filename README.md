@@ -1,4 +1,4 @@
 PictureGallery
 ==============
 
-This is a web based image gallery
+This is a web based image gallery platform.
