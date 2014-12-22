@@ -1,0 +1,90 @@
+			* {  /* selects every tag on page */
+  				-webkit-box-sizing: border-box;
+     			-moz-box-sizing: border-box;
+          		box-sizing: border-box;
+          		max-width: 1000px; /* improves the browser handling of small windows */
+				margin: 0;
+				padding: 0;
+				font-family: Tahoma, Geneva, sans-serif;
+			}
+
+			html, body {
+				margin-right: auto;
+				margin-left: auto;
+				padding: 0;
+				height: 100%;
+				width: 100%;
+				background-color: #567;
+				color: #FFFFFF;
+			}
+			
+			#header {
+				width: 77%;
+				float: left;
+			}
+
+			.mainHeader {
+				text-shadow: 4px 5px 3px #000;
+				float: left;
+				margin: 0px 0px 8px;
+				padding: 8px;
+				color: #FFFFFF;
+			}
+			
+			#navigation {
+				width: 23%;
+				float: right;
+				font-weight: bold;
+				text-shadow: 4px 5px 3px #000;
+			}
+			
+			#navigation ol{
+				padding: 8px 8px;
+				margin: 0px;
+				position: fixed;
+			}
+
+			#navigation li {
+				float: right;
+				display: inline;
+				padding: 8px 8px;
+			}
+			
+			#navigation li a {
+				text-decoration: none;
+				padding: 8px;
+				color: #FFFFFF;
+			}
+
+			#navigation li a:hover {
+				color: #F90;
+			}
+			
+			#container {
+				width: 100%;
+				margin: 10px auto;
+			}
+			
+			.images {
+				margin:3px;
+				height: 240px;
+				width: 324px;
+				padding: 1px;
+				border: 1px solid white;
+			}
+			
+			#content {
+				background-color: #567;
+			}
+
+			#copyrights {
+				margin: 5px auto;
+				position: fixed;
+				bottom: 0px;
+				width: 100%;
+				text-align: center;
+				font-family: serif;
+				font-size: 11px;
+				font-style: oblique;
+				color: #FFFFFF;
+			}
