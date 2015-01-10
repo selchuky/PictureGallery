@@ -14,8 +14,8 @@
 				padding: 0;
 				height: 100%;
 				width: 100%;
-				background-color: #567;
-				color: #FFFFFF;
+			/*	background-color: #567;  */
+				color: #FFFFFF;  
 			}
 			
 			#header {
@@ -65,7 +65,7 @@
 				margin: 10px auto;
 			}
 			
-			.images {
+			.currentImage {
 				margin:3px;
 				height: 240px;
 				width: 324px;
@@ -74,7 +74,7 @@
 			}
 			
 			#content {
-				background-color: #567;
+			/*	background-color: #567;   */
 			}
 
 			#copyrights {
